@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pointerpointer.com</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="lib/VoronoiGrid.js"></script>
+	<style type="text/css">
+	img, canvas {
+		margin: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	img {
+		z-index: 1;
+		transition: opacity 0.5s;
+	}
+	div {
+		position: absolute;
+		color: white;
+		font-family: helvetica;
+		top: 10px;
+		left: 10px;
+		z-index: 3;
+	}
+	</style>
+</head>
+<body>
+<img width="1024" height="768"></img>
+<script type="text/javascript" src="main.js"></script>
+<div>Click on the image to reveal the underlying grid</div>
+</body>
+</html>
